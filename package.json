@@ -1,0 +1,46 @@
+{
+  "name": "loki",
+  "version": "1.0.0",
+  "description": "dom元素基于定点的放大缩小，js实现，不使用transform scale.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "dev": "parcel example/index.html",
+    "prepublish": "npm run build",
+    "test": "jest test",
+    "test:watch": "npm run test -- --watch",
+    "test:cover": "npm run test -- --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@vue/component-compiler-utils": "^2.3.1",
+    "babel-jest": "^24.0.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.0.0",
+    "less": "^3.9.0",
+    "nodemon": "^1.18.3",
+    "parcel-bundler": "^1.11.0",
+    "regenerator-runtime": "^0.12.1",
+    "vue": "^2.5.22",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "dependencies": {
+    "konva": "^2.6.0",
+    "ramda": "^0.26.1",
+    "two.js": "^0.7.0-beta.3",
+    "vue-hot-reload-api": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokialone/loki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokialone/loki/issues"
+  },
+  "homepage": "https://github.com/lokialone/loki#readme"
+}
