@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "konva": "^2.6.0",
-    "ramda": "^0.26.1",
+    "ramda": "^0.30.1",
     "two.js": "^0.7.0-beta.3",
     "vue-hot-reload-api": "^2.3.1"
   },
